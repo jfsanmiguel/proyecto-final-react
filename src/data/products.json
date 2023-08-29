@@ -1,0 +1,121 @@
+[
+    {
+        "name": "computador",
+        "avatar":"https://www.lifeofpix.com/wp-content/uploads/2018/06/p-308-name6971-chim-1600x1070.jpg",
+        "stock":7,
+        "category":"electronics",
+        "id":1,
+        "price":1000
+        
+    },
+    {
+        "name": "celular",
+        "avatar":"https://www.lifeofpix.com/wp-content/uploads/2018/06/270-jira0266-chim-48-1600x1310.jpg",
+        "stock":12,
+        "category":"electronics",
+        "id":2,
+        "price":800
+        
+    },
+    {
+        "name": "cargador",
+        "avatar":"https://images.unsplash.com/photo-1603539444875-76e7684265f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "stock":20,
+        "category":"charger",
+        "id":3,
+        "price":100
+        
+    },
+    {
+        "name": "audifonos",
+        "avatar":"https://www.lifeofpix.com/wp-content/uploads/2018/03/P1030031-1600x1200.jpg",
+        "stock":15,
+        "category":"headphones",
+        "id":4,
+        "price":80
+        
+    },
+    {
+        "name": "microfono",
+        "avatar":"https://images.unsplash.com/photo-1531651008558-ed1740375b39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "stock":8,
+        "category":"accesories",
+        "id":5,
+        "price":75
+        
+    },
+    {
+        "name": "teclado",
+        "avatar":"https://www.lifeofpix.com/wp-content/uploads/2017/11/instagram-1511877860763-1-1487x1487.png",
+        "stock":5,
+        "category":"accesories",
+        "id":6,
+        "price":125
+        
+    },
+    {
+        "name": "forro celular",
+        "avatar":"https://images.unsplash.com/photo-1593055454503-531d165c2ed8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2030&q=80",
+        "stock":25,
+        "category":"cases",
+        "id":7,
+        "price":25
+        
+    },
+    {
+        "name": "cargador computador",
+        "avatar":"https://images.unsplash.com/photo-1600490722773-35753aea6332?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "stock":9,
+        "category":"charger",
+        "id":8,
+        "price":150
+        
+    },
+    {
+        "name": "camara",
+        "avatar":"https://images.unsplash.com/photo-1614588876378-b2ffa4520c22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2060&q=80",
+        "stock":11,
+        "category":"accesories",
+        "id":9,
+        "price":250
+        
+    },
+    {
+        "name": "amplificador",
+        "avatar":"https://images.unsplash.com/photo-1516044734145-07ca8eef8731?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80",
+        "stock":12,
+        "category":"electronics",
+        "id":10,
+        "price":90
+        
+    },
+    {
+        "name": "pila portatil",
+        "avatar":"https://images.unsplash.com/photo-1525858907241-d230b66fb9fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2149&q=80",
+        "stock":14,
+        "category":"accesories",
+        "id":11,
+        "price":115
+        
+    },
+    {
+        "name": "disco duro",
+        "avatar":"https://images.unsplash.com/photo-1628557118391-56cd62c9f2cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80",
+        "stock":7,
+        "category":"electronics",
+        "id":12,
+        "price":300
+        
+    },
+    {
+        "name": "mouse",
+        "avatar":"https://images.unsplash.com/photo-1605773527852-c546a8584ea3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+        "stock":15,
+        "category":"accesories",
+        "id":13,
+        "price":20
+        
+    }
+]
+
+

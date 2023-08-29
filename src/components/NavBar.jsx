@@ -7,20 +7,20 @@ export const NavBar=()=>(
     <header>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">E-TechTreasures</Navbar.Brand>
+        <Navbar.Brand href="/">E-TechTreasures</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Electronicos</Nav.Link>
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/category/electronics">Electronicos</Nav.Link>
             <NavDropdown title="Accesorios" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Cargadores</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/category/charger">Cargadores</NavDropdown.Item>
+              <NavDropdown.Item href="/category/headphones">
                 Audífonos
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Forros</NavDropdown.Item>
+              <NavDropdown.Item href="/category/cases">Forros</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/category/accesories">
                 Accesorios de Computador
               </NavDropdown.Item>
             </NavDropdown>

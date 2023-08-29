@@ -1,3 +1,6 @@
 img {
   height: 1.25rem;
 }
+.itemCount span{
+  padding: 1rem;
+}
