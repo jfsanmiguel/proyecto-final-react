@@ -19,7 +19,7 @@ export const ItemListContainer = (props) => {
            }
             
         });
-    }, []);
+    }, [id]);
     return <Container className='mt-4'>
         <h1>{props.greeting}</h1>
         <div style={{display:"flex", flexWrap:"wrap"}}>
