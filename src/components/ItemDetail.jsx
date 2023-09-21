@@ -9,6 +9,9 @@ export const ItemDetail=({item})=>(
         <Card.Text>
           Stock actual: {item.stock}
         </Card.Text>
+        <Card.Text>
+          Precio: {item.price}
+        </Card.Text>
       </Card.Body>
     </Card>
         </div>
