@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
-import{ getFirestore, getDocs, collection } from "firebase/firestore";
+import{ getFirestore, getDocs, collection, query, where } from "firebase/firestore";
 import { ItemList } from "./ItemList";
 export const ItemListContainer = (props) => {
     const [item,setItem]=useState([]);
@@ -9,15 +9,31 @@ export const ItemListContainer = (props) => {
     const {id} = useParams();
     useEffect(()=>{
         const db = getFirestore();
-        const refCollection= collection(db,"products");
-        getDocs(refCollection).then(snapshot =>{
-            if(snapshot.size===0) console.log("sin resultados")
-            else
-            setItem(snapshot.docs.map(doc=>{
-        return {id: doc.id, ...doc.data()}
-    })
-    )
-        }).finally(()=> setLoading(false))
+        if(!id){
+            const refCollection= collection(db,"products");
+            getDocs(refCollection).then(snapshot =>{
+                if(snapshot.size===0) console.log("sin resultados")
+                else
+                setItem(snapshot.docs.map(doc=>{
+            return {id: doc.id, ...doc.data()}
+        })
+        )
+            }).finally(()=> setLoading(false))  
+        }else{
+            const q=query(
+                collection(db,"products"),
+                where("category","==",id)
+            );
+            getDocs(q).then(snapshot =>{
+                if(snapshot.size===0) console.log("sin resultados")
+                else
+                setItem(snapshot.docs.map(doc=>{
+            return {id: doc.id, ...doc.data()}
+        })
+        )
+            }).finally(()=> setLoading(false)) 
+        }
+        
     },[id])
     if(loading) {
         return <div>Loading...</div>;
