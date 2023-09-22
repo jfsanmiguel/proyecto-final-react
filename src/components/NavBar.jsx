@@ -4,11 +4,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
-export const NavBar=()=>(
-    <header>
+export const NavBar = () => (
+  <header>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-      <Navbar.Brand as={Link} to="/">E-TechTreasures</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">E-TechTreasures</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -30,8 +30,7 @@ export const NavBar=()=>(
         <CartWidget />
       </Container>
     </Navbar>
-  </header>  
+  </header>
 )
 
-   
-    
+
